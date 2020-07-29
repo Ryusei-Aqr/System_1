@@ -1,0 +1,2 @@
+*/1 * * * * python3 /home/pi/exercises/capture.py
+*/1 * * * * sleep 2; python3 /home/pi/exercises/rasWeather.py
