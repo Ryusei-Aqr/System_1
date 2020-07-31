@@ -8,7 +8,7 @@ import sys
 from pytz import timezone
 from slacker import Slacker
 
-API_KEY = 'da1bc6b2497e5f663ff00c738ed049f0'
+API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxx'
 city = "kitakata"
 API_URL = 'http://api.openweathermap.org/data/2.5/weather?'
 makeUrl = API_URL + "appid=" + API_KEY + "&q=" + city
@@ -16,7 +16,7 @@ response = requests.get(makeUrl)
 cityData = response.json()
 
 #For Slack
-token = "xoxp-1234430567092-1213507232231-1228269505394-0a816f3d41448d3ff85fdcecb14c7e00"
+token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 slacker = Slacker(token)
 channel_name = "#" + "general"
