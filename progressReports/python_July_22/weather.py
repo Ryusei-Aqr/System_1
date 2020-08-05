@@ -9,8 +9,8 @@ import sys
 
 from pytz import timezone
 
-API_KEY = 'da1bc6b2497e5f663ff00c738ed049f0'
-ZIP = '965-0023,JP'
+API_KEY = 'xxxxxxxxxxxxxxxxxxx'
+ZIP = 'xxx-xxxx,JP'
 API_URL = 'http://api.openweathermap.org/data/2.5/forecast?zip={0}&units=metric&lang=ja&APPID={1}'
 
 def getWeatherForecast():
