@@ -5,7 +5,7 @@ os.system("fswebcam /dev/video0 /home/pi/exercises/weather.jpg")
 from slacker import Slacker
 
 #OAuthToken
-token = "xoxp-1234430567092-1213507232231-1228269505394-0a816f3d41448d3ff85fdcecb14c7e00"
+token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 slacker = Slacker(token)
 channel_name = "#" + "general"
